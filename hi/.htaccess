@@ -1,0 +1,8 @@
+ErrorDocument 400 https://hi.itsv.me
+ErrorDocument 401 https://hi.itsv.me
+ErrorDocument 403 https://hi.itsv.me
+ErrorDocument 404 https://hi.itsv.me
+ErrorDocument 503 https://google.com
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

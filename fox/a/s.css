@@ -1,0 +1,113 @@
+body {
+height: 100%;
+margin: 0;
+padding: 0;
+background: black;
+background-image: url("i/bg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: #fff;
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+letter-spacing: 2px;
+-webkit-user-select: none; /* Safari/Chome no selection */
+-webkit-touch-callout: none; /* Safari no selection */
+-moz-user-select: none; /* Mozilla no selection */
+-ms-user-select: none; /* IE 10 and IE 11 no selection */
+user-select: none; /* Standard syntax no selection */
+}
+
+.top {
+padding-top: 50px;
+}
+
+.profile {
+margin-left: auto;
+margin-right: auto;
+margin-top: 0;
+margin-bottom: 0;
+background-color: rgba(0, 0, 0, 0.3);
+padding: 0px;
+width: 400px;
+border: 2px solid white;
+border-top: 0px;
+border-bottom: 0px;
+text-align: center;
+height: 100%;
+overflow-y: scroll;
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+.profile::-webkit-scrollbar {
+  display: none;
+}
+
+.profile-picture {
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: 150px;
+max-width: 150px;
+border-radius: 50%;
+}
+
+.profile-name {
+font-size: 30px;
+font-weight: bold;
+padding: 20px;
+}
+
+.marker-icon { 
+height: 15px;
+filter: invert(100%);
+}
+
+.profile-short {
+line-height: 1.5;
+padding-bottom: 20px;
+}
+
+.icons { 
+height: 44px;
+filter: invert(100%);
+padding-right: 5px;
+padding-left: 5px;
+}
+
+.icons:hover { 
+height: 44px;
+filter: invert(50%);
+padding-right: 5px;
+padding-left: 5px;
+}
+
+.links {
+margin-top: 20px;
+padding: 20px;
+border: 1px solid white;
+border-width: 2px;
+width: 250px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+background-color: rgba(0, 0, 0, 0.3);
+}
+
+a {
+text-decoration: none;
+color: white;
+transition: color 1s;
+}
+
+.links:hover {
+color: #fff;
+border-color: rgba(187, 187, 187, 0.3);
+background-color: rgba(187, 187, 187, 0.3);
+}
+
+.bottom {
+padding-bottom: 50px;
+}
