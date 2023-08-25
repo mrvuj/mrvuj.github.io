@@ -1,8 +1,0 @@
-ErrorDocument 400 https://fox.itsv.me
-ErrorDocument 401 https://fox.itsv.me
-ErrorDocument 403 https://fox.itsv.me
-ErrorDocument 404 https://fox.itsv.me
-ErrorDocument 503 https://google.com
-RewriteEngine On 
-RewriteCond %{HTTPS} off 
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
