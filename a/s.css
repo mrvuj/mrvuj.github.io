@@ -19,7 +19,7 @@ user-select: none; /* Standard syntax no selection */
 }
 
 .top {
-padding-top: 0px;
+padding-top: 50px;
 }
 
 .profile {
@@ -28,8 +28,8 @@ margin-right: auto;
 margin-top: 0;
 margin-bottom: 0;
 background-color: rgba(0, 0, 0, 0.7);
-padding: 25px;
-width: 350px;
+padding: 0px;
+width: 400px;
 border: 2px solid white;
 border-top: 0px;
 border-bottom: 0px;
@@ -44,6 +44,12 @@ scrollbar-width: none;  /* Firefox */
   display: none;
 }
 
+a {
+text-decoration: none;
+color: white;
+transition: color 1s;
+}
+
 .bottom {
-padding-bottom: 0px;
+padding-bottom: 50px;
 }
