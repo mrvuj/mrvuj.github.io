@@ -29,7 +29,7 @@ margin-top: 0;
 margin-bottom: 0;
 background-color: rgba(0, 0, 0, 0.6);
 padding: 0px;
-width: 1500px;
+width: 400px;
 border: 2px solid white;
 border-top: 0px;
 border-bottom: 0px;
@@ -50,7 +50,7 @@ margin-left: auto;
 margin-right: auto;
 height: 150px;
 max-width: 150px;
-border-radius: 15%;
+border-radius: 50%;
 }
 
 .profile-name {
