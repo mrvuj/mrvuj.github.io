@@ -42,11 +42,37 @@ Sporting a <b>stylish brown coat with designer white patches</b>, he’s a certi
 Whether he’s tripping over his own paws or perfecting his sad puppy face for maximum cuddles, Udon is here to bring laughter, chaos, and unconditional love.
 <br><br>
 Neutered but still full of sass, Udon is here to remind you that the best things in life are <b>rescued, loved, and slightly lopsided. Adopt, don’t shop!</b></div>
-
+  
 <!-- Bottom-->
 <div class="bottom"></div>
-
 </div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </body>
 </html>
